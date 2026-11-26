@@ -389,7 +389,7 @@ int main() {
     bucketSort(copiaBucket, tamanho);
     fim = obterTempoMs();
     printf("\nBucket Sort: %.2f ms\n", fim - inicio);
-	// Libertação de toda a memória alocada (evita memory leaks)
+	// Libertação de toda a memória alocada
 	free(meuVetor);
 	free(copiaBubble);
 	free(copiaInsertion);
